@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "child-process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "jquery": "^3.6.1",
+    "kroger": "^1.0.1",
+    "mysql": "^2.18.1",
+    "python-shell": "^3.0.1",
+    "youtube-transcript": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/sqlstring": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "getasl",
+  "version": "1.0.0",
+  "description": "make asl captions for youtube",
+  "main": "server.js",
+  "keywords": [
+    "getasl"
+  ],
+  "author": "Quintin Wehby",
+  "license": "ISC"
+}
