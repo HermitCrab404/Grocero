@@ -360,8 +360,10 @@ def etsy(term):
 
     # Close the web driver
     driver.quit()
-term = "laptop" #sys.argv[1]
-zipCode = 37027 #sys.argv[2]
+
+#Put your term and zipcode here if you want to just use the backend code
+term = sys.argv[1]
+zipCode = sys.argv[2]
 
 if __name__ == '__main__':
     #amazonThread = Process(target = amazon, args=(term,))
