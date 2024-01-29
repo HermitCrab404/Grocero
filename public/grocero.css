@@ -1,0 +1,648 @@
+.homepage {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.homepage .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1560px;
+  height: 5671px;
+}
+
+.homepage .overlap {
+  position: relative;
+  width: 1620px;
+  height: 5671px;
+  left: -20px;
+}
+
+.homepage .menu {
+  position: absolute;
+  width: 1620px;
+  height: 5351px;
+  top: 320px;
+  left: 0;
+}
+
+.homepage .contact {
+  position: absolute;
+  width: 1560px;
+  height: 1927px;
+  top: 3424px;
+  left: 20px;
+}
+
+.homepage .overlap-group {
+  position: absolute;
+  width: 1560px;
+  height: 1247px;
+  top: 0;
+  left: 20px;
+  background-image: url(./img/bg.svg);
+  background-size: 100% 100%;
+}
+
+.homepage .content {
+  position: relative;
+  width: 785px;
+  height: 107px;
+  top: 161px;
+  left: 562px;
+}
+
+.homepage .stores {
+  position: absolute;
+  width: 1580px;
+  height: 853px;
+  top: 2100px;
+  left: 32px;
+}
+
+.homepage .text-wrapper {
+  position: absolute;
+  width: 1250px;
+  top: 28px;
+  left: 166px;
+  font-family: var(--headline-h2-font-family);
+  font-weight: var(--headline-h2-font-weight);
+  color: #2b2e23;
+  font-size: var(--headline-h2-font-size);
+  text-align: center;
+  letter-spacing: var(--headline-h2-letter-spacing);
+  line-height: var(--headline-h2-line-height);
+  white-space: nowrap;
+  font-style: var(--headline-h2-font-style);
+}
+
+.homepage .costco {
+  position: absolute;
+  width: 287px;
+  height: 286px;
+  top: 436px;
+  left: 1233px;
+  object-fit: cover;
+}
+
+.homepage .kroger {
+  position: absolute;
+  width: 217px;
+  height: 249px;
+  top: 454px;
+  left: 869px;
+  object-fit: cover;
+}
+
+.homepage .walmart {
+  width: 267px;
+  height: 272px;
+  top: 431px;
+  left: 55px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .img {
+  position: absolute;
+  width: 307px;
+  height: 267px;
+  top: 446px;
+  left: 390px;
+  object-fit: cover;
+}
+
+.homepage .image {
+  position: absolute;
+  width: 234px;
+  height: 252px;
+  top: 3209px;
+  left: 1283px;
+  object-fit: cover;
+}
+
+.homepage .download-2 {
+  width: 370px;
+  height: 132px;
+  top: 3273px;
+  left: 784px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .target-bullseye-logo {
+  position: absolute;
+  width: 238px;
+  height: 233px;
+  top: 3225px;
+  left: 426px;
+  object-fit: cover;
+}
+
+.homepage .download-3 {
+  width: 244px;
+  height: 236px;
+  top: 3225px;
+  left: 65px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .hero {
+  position: absolute;
+  width: 1600px;
+  height: 1149px;
+  top: 3930px;
+  left: 20px;
+}
+
+.homepage .div {
+  position: relative;
+  height: 1149px;
+}
+
+.homepage .bg {
+  position: absolute;
+  width: 1600px;
+  height: 642px;
+  top: 0;
+  left: 0;
+  background-color: var(--neutral-02);
+}
+
+.homepage .hero-2 {
+  position: absolute;
+  width: 1077px;
+  height: 953px;
+  top: 196px;
+  left: 238px;
+}
+
+.homepage .title {
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+  top: 0;
+  left: 266px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.homepage .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--headline-h1-font-family);
+  font-weight: var(--headline-h1-font-weight);
+  color: #2b2e23;
+  font-size: var(--headline-h1-font-size);
+  text-align: center;
+  letter-spacing: var(--headline-h1-letter-spacing);
+  line-height: var(--headline-h1-line-height);
+  white-space: nowrap;
+  font-style: var(--headline-h1-font-style);
+}
+
+.homepage .p {
+  position: relative;
+  width: 545px;
+  font-family: var(--body-18px-regular-font-family);
+  font-weight: var(--body-18px-regular-font-weight);
+  color: #48545f;
+  font-size: var(--body-18px-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-18px-regular-letter-spacing);
+  line-height: var(--body-18px-regular-line-height);
+  font-style: var(--body-18px-regular-font-style);
+}
+
+.homepage .form {
+  display: flex;
+  flex-direction: column;
+  width: 1077px;
+  height: 660px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 40px;
+  position: absolute;
+  top: 293px;
+  left: 0;
+  background-color: var(--neutral-01);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--2);
+}
+
+.homepage .box-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .row {
+  display: flex;
+  width: 744px;
+  height: 74px;
+  align-items: flex-end;
+  gap: 24px;
+  position: relative;
+}
+
+.homepage .element {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-top: -18px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+}
+
+.homepage .div-wrapper {
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+}
+
+.homepage .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-16px-bold-font-family);
+  font-weight: var(--body-16px-bold-font-weight);
+  font-size: var(--body-16px-bold-font-size);
+  color: #2b2e23;
+  letter-spacing: var(--body-16px-bold-letter-spacing);
+  line-height: var(--body-16px-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--body-16px-bold-font-style);
+}
+
+.homepage .button-base {
+  width: 350px;
+  height: 60px;
+  padding: 0px 24px;
+  background-color: var(--neutral-01);
+  border-radius: 72px;
+  border: 1px solid;
+  border-color: var(--neutral-03);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.homepage .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-16px-regular-font-family);
+  font-weight: var(--body-16px-regular-font-weight);
+  color: var(--neutral-05);
+  font-size: var(--body-16px-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-16px-regular-letter-spacing);
+  line-height: var(--body-16px-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-16px-regular-font-style);
+}
+
+.homepage .element-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -26px;
+  margin-right: -76px;
+}
+
+.homepage .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "DM Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #2b2e23;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.homepage .button-base-2 {
+  width: 446px;
+  height: 60px;
+  align-items: center;
+  padding: 0px 24px;
+  border-radius: 72px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  background-color: var(--neutral-01);
+  border: 1px solid;
+  border-color: var(--neutral-03);
+}
+
+.homepage .element-wrapper {
+  display: flex;
+  width: 717px;
+  align-items: flex-end;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .element-3 {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+}
+
+.homepage .button-base-3 {
+  height: 60px;
+  align-items: center;
+  padding: 0px 24px;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 72px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  background-color: var(--neutral-01);
+  border: 1px solid;
+  border-color: var(--neutral-03);
+}
+
+.homepage .button-base-4 {
+  height: 156px;
+  align-items: flex-start;
+  padding: 24px;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 16px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  background-color: var(--neutral-01);
+  border: 1px solid;
+  border-color: var(--neutral-03);
+}
+
+.homepage .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-16px-regular-font-family);
+  font-weight: var(--body-16px-regular-font-weight);
+  color: var(--neutral-05);
+  font-size: var(--body-16px-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-16px-regular-letter-spacing);
+  line-height: var(--body-16px-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-16px-regular-font-style);
+}
+
+.homepage .button {
+  justify-content: center;
+  padding: 20px 32px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ad343e;
+  border-radius: 118px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.homepage .get-started-now {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-16px-bold-font-family);
+  font-weight: var(--body-16px-bold-font-weight);
+  color: #ffffff;
+  font-size: var(--body-16px-bold-font-size);
+  text-align: right;
+  letter-spacing: var(--body-16px-bold-letter-spacing);
+  line-height: var(--body-16px-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--body-16px-bold-font-style);
+}
+
+.homepage .header {
+  position: absolute;
+  width: 1600px;
+  height: 112px;
+  top: 0;
+  left: 0;
+}
+
+.homepage .hero-3 {
+  position: absolute;
+  width: 1560px;
+  height: 916px;
+  top: 0;
+  left: 20px;
+}
+
+.homepage .about {
+  position: absolute;
+  width: 1532px;
+  height: 1444px;
+  top: 976px;
+  left: 20px;
+}
+
+.homepage .header-wrapper {
+  position: absolute;
+  width: 1600px;
+  height: 129px;
+  top: 0;
+  left: 20px;
+}
+
+.homepage .header-2 {
+  position: relative;
+  width: 1416px;
+  height: 129px;
+  left: 28px;
+}
+
+.homepage .original-logo {
+  position: absolute;
+  width: 186px;
+  height: 39px;
+  top: 16px;
+  left: -27px;
+}
+
+.homepage .cuisine {
+  position: absolute;
+  top: 3px;
+  left: 42px;
+  font-family: "Playfair Display-SemiBoldItalic", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #474747;
+  font-size: 42.7px;
+  letter-spacing: -0.4px;
+  line-height: 29.3px;
+  white-space: nowrap;
+}
+
+.homepage .overlap-group-2 {
+  position: absolute;
+  width: 642px;
+  height: 32px;
+  top: 39px;
+  left: 278px;
+}
+
+.homepage .menu-2 {
+  position: absolute;
+  width: 642px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+
+.homepage .menu-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #53c449;
+  border-radius: 34px;
+}
+
+.homepage .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 36px;
+  color: #2b2e23;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage .stores-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 16px;
+  position: absolute;
+  top: 0;
+  left: 310px;
+  border-radius: 34px;
+}
+
+.homepage .menu-4 {
+  display: flex;
+  width: 96px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 16px;
+  position: absolute;
+  top: 0;
+  left: 546px;
+  border-radius: 34px;
+}
+
+.homepage .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-left: -18px;
+  margin-right: -18px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #2b2e23;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage .text-wrapper-9 {
+  position: absolute;
+  top: 3px;
+  left: 183px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #2b2e23;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage .text-wrapper-10 {
+  position: absolute;
+  top: 42px;
+  left: 989px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 36px;
+  color: #2b2e23;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.homepage .rectangle {
+  position: absolute;
+  width: 744px;
+  height: 114px;
+  top: 3701px;
+  left: 410px;
+}
+
+.homepage .text-wrapper-11 {
+  position: absolute;
+  width: 648px;
+  top: 3712px;
+  left: 472px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
