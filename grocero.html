@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="grocero.css" />
+    <script src="fetch.js"></script>
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="menu">
+            <img class="contact" src="img/contact.png" />
+            <div class="overlap-group"><div class="content"></div></div>
+            <div class="stores">
+              <p class="text-wrapper">We include the following stores in our calculations:</p>
+              <img class="costco" src="./public/images/costco.png" />
+              <img class="kroger" src="./public/images/kroger.png" />
+              <img class="walmart" src="./public/images/walmart.png" />
+              <img class="img" src="img/download-3-1.png" />
+            </div>
+          </div>
+          <img class="image" src="img/image-113.png" />
+          <img class="download-2" src="img/download-2.png" />
+          <img class="target-bullseye-logo" src="img/target-bullseye-logo-red.png" />
+          <img class="download-3" src="img/download.png" />
+          <div class="hero">
+            <div class="div">
+              <div class="bg"></div>
+              <div class="hero-2">
+                <div class="title"><div class="text-wrapper-2">Contact Us</div></div>
+                <div class="form">
+                  <div class="box-wrapper">
+                    <div class="box">
+                      <div class="row">
+                        <div class="element">
+                          <div class="div-wrapper"><div class="text-wrapper-3">Name</div></div>
+                          <div class="button-base"><div class="text-wrapper-4">Enter your name</div></div>
+                        </div>
+                        <div class="element-2">
+                          <div class="div-wrapper"><div class="text-wrapper-5">Email</div></div>
+                          <div class="button-base-2"><div class="text-wrapper-4">Enter email address</div></div>
+                        </div>
+                      </div>
+                      <div class="element-wrapper">
+                        <div class="element-3">
+                          <div class="div-wrapper"><div class="text-wrapper-3">Subject</div></div>
+                          <div class="button-base-3"><div class="text-wrapper-4">Write a subject</div></div>
+                        </div>
+                      </div>
+                      <div class="element-wrapper">
+                        <div class="element-3">
+                          <div class="div-wrapper"><div class="text-wrapper-3">Message</div></div>
+                          <div class="button-base-4"><div class="text-wrapper-6">Write your message</div></div>
+                        </div>
+                      </div>
+                      <button class="button"><div class="get-started-now">Send</div></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header"></div>
+            </div>
+          </div>
+          <img class="hero-3" src="img/hero.png" />
+          <img class="about" src="img/about.png" />
+          <div class="header-wrapper">
+            <div class="header-2">
+              <div class="original-logo"><div class="cuisine">Grocero</div></div>
+              <div class="overlap-group-2">
+                <div class="menu-2">
+                  <div class="menu-3"><div class="text-wrapper-7">Home</div></div>
+                  <div class="stores-wrapper"><div class="text-wrapper-7">&nbsp;&nbsp;&nbsp;&nbsp;Stores</div></div>
+                  <div class="menu-4"><div class="text-wrapper-8">Pages</div></div>
+                </div>
+                <div class="text-wrapper-9">About</div>
+              </div>
+              <div class="text-wrapper-10">Contact</div>
+            </div>
+          </div>
+          <img class="rectangle" src="img/rectangle-481.svg" />
+          <div class="text-wrapper-11">Go to Calculation Hub</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById('search').onclick = async function (){
+            let term = document.getElementById("inputValue").value;
+            let [status, body] = await sendRequest("POST", "item", {variables: term, zipCode});
+            console.log(status, body);
+            if(status == 200) {
+              processData(body);
+            }
+            else {
+              document.getElementById("inputLink").value = "Error Connecting to Server";
+            }
+      }
+
+      function processData(body){
+        groceries = JSON.parse(body);
+        for (var i = 0; i < body.groceries.length; i++){
+          document.createTextNode(groceries[i]['store'] + groceries[i]['name'] + "/n" + groceeries[i]['price']);
+        }
+      }
+    </script>
+  </body>
+</html>
